@@ -51,7 +51,8 @@ fun PhotoDetailScreen(
         tags = viewModel.getTagsForPhotoSuspend(photoId).map { it.name }
     }
 
-    if (photo == null) {
+    val currentPhoto = photo
+    if (currentPhoto == null) {
         Column(
             modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background),
             verticalArrangement = Arrangement.Center
@@ -61,7 +62,7 @@ fun PhotoDetailScreen(
         return
     }
 
-    val imageFile = File(context.filesDir, "photos/${photo!!.fileName}")
+    val imageFile = File(context.filesDir, "photos/${currentPhoto.fileName}")
 
     Scaffold(
         topBar = {
@@ -96,9 +97,9 @@ fun PhotoDetailScreen(
                 contentScale = ContentScale.FillWidth
             )
 
-            Text("File: ${photo!!.fileName}")
-            Text("Created: ${photo!!.createdAt}")
-            Text("Size: ${photo!!.sizeBytes} bytes")
+            Text("File: ${currentPhoto.fileName}")
+            Text("Created: ${currentPhoto.createdAt}")
+            Text("Size: ${currentPhoto.sizeBytes} bytes")
             Text("Tags: ${tags.joinToString()}")
 
             Row(

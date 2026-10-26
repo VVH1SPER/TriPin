@@ -9,192 +9,192 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-feature
-11-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:4:5-6:36
+11-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:4:5-6:36
 12        android:name="android.hardware.camera"
-12-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:5:9-47
+12-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:5:9-47
 13        android:required="false" />
-13-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:6:9-33
+13-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:6:9-33
 14
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:8:5-65
-15-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:8:22-62
+15-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:8:5-65
+15-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:8:22-62
 16    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-16-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:9:5-76
-16-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:9:22-73
+16-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:9:5-76
+16-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:9:22-73
 17    <uses-permission
-17-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:10:5-108
+17-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:10:5-108
 18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-18-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:10:22-78
+18-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:10:22-78
 19        android:maxSdkVersion="28" />
-19-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:10:79-105
+19-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:10:79-105
 20
 21    <permission
-21-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\b801fabb97dc640b91dd2d056858e56e\workspace\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+21-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\8.9\transforms\e2d7aced18d1741c7acf71b9c6473e5c\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 22        android:name="com.photoorganizer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-22-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\b801fabb97dc640b91dd2d056858e56e\workspace\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+22-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\8.9\transforms\e2d7aced18d1741c7acf71b9c6473e5c\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 23        android:protectionLevel="signature" />
-23-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\b801fabb97dc640b91dd2d056858e56e\workspace\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+23-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\8.9\transforms\e2d7aced18d1741c7acf71b9c6473e5c\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 24
 25    <uses-permission android:name="com.photoorganizer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-25-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\b801fabb97dc640b91dd2d056858e56e\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-25-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\b801fabb97dc640b91dd2d056858e56e\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+25-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\8.9\transforms\e2d7aced18d1741c7acf71b9c6473e5c\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\8.9\transforms\e2d7aced18d1741c7acf71b9c6473e5c\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 26
 27    <application
-27-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:12:5-39:19
+27-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:12:5-39:19
 28        android:allowBackup="true"
-28-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:13:9-35
+28-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:13:9-35
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\b801fabb97dc640b91dd2d056858e56e\workspace\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+29-->[androidx.core:core:1.13.1] C:\Users\PC\.gradle\caches\8.9\transforms\e2d7aced18d1741c7acf71b9c6473e5c\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 30        android:debuggable="true"
 31        android:extractNativeLibs="false"
-32        android:icon="@mipmap/ic_launcher"
-32-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:14:9-43
-33        android:label="Photo Organizer"
-33-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:15:9-40
-34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:16:9-54
+32        android:icon="@drawable/tripin_logo"
+32-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:14:9-45
+33        android:label="@string/app_name"
+33-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:15:9-41
+34        android:roundIcon="@drawable/tripin_logo"
+34-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:16:9-50
 35        android:supportsRtl="true"
-35-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:17:9-35
+35-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:17:9-35
 36        android:theme="@style/Theme.PhotoOrganizer" >
-36-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:18:9-52
+36-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:18:9-52
 37        <activity
-37-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:20:9-28:20
+37-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:20:9-28:20
 38            android:name="com.photoorganizer.MainActivity"
-38-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:21:13-41
+38-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:21:13-41
 39            android:exported="true"
-39-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:22:13-36
+39-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:22:13-36
 40            android:screenOrientation="portrait" >
-40-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:23:13-49
+40-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:23:13-49
 41            <intent-filter>
-41-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:24:13-27:29
+41-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:24:13-27:29
 42                <action android:name="android.intent.action.MAIN" />
-42-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:25:17-69
-42-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:25:25-66
+42-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:25:17-69
+42-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:25:25-66
 43
 44                <category android:name="android.intent.category.LAUNCHER" />
-44-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:26:17-77
-44-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:26:27-74
+44-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:26:17-77
+44-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:26:27-74
 45            </intent-filter>
 46        </activity>
 47
 48        <provider
 49            android:name="androidx.core.content.FileProvider"
-49-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:31:13-62
+49-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:31:13-62
 50            android:authorities="com.photoorganizer.fileprovider"
-50-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:32:13-64
+50-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:32:13-64
 51            android:exported="false"
-51-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:33:13-37
+51-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:33:13-37
 52            android:grantUriPermissions="true" >
-52-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:34:13-47
+52-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:34:13-47
 53            <meta-data
-53-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:35:13-37:54
+53-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:35:13-37:54
 54                android:name="android.support.FILE_PROVIDER_PATHS"
-54-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:36:17-67
+54-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:36:17-67
 55                android:resource="@xml/file_paths" />
-55-->C:\Users\PC\Documents\EUBA\2. rocnik\mobilne\TriPin\projekt\PhotoOrganizerApp\app\src\main\AndroidManifest.xml:37:17-51
+55-->C:\Users\PC\Documents\EUBA\2. rocnik\Android\App\app\src\main\AndroidManifest.xml:37:17-51
 56        </provider>
 57
 58        <service
-58-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\9.3.0\transforms\fb412613baaa861d822dba4ecd5f5013\workspace\transformed\camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+58-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\8.9\transforms\e74ba97fa8caa9840fab4e7da5d860e9\transformed\camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
 59            android:name="androidx.camera.core.impl.MetadataHolderService"
-59-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\9.3.0\transforms\fb412613baaa861d822dba4ecd5f5013\workspace\transformed\camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
+59-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\8.9\transforms\e74ba97fa8caa9840fab4e7da5d860e9\transformed\camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
 60            android:enabled="false"
-60-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\9.3.0\transforms\fb412613baaa861d822dba4ecd5f5013\workspace\transformed\camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
+60-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\8.9\transforms\e74ba97fa8caa9840fab4e7da5d860e9\transformed\camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
 61            android:exported="false" >
-61-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\9.3.0\transforms\fb412613baaa861d822dba4ecd5f5013\workspace\transformed\camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
+61-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\8.9\transforms\e74ba97fa8caa9840fab4e7da5d860e9\transformed\camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
 62            <meta-data
-62-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\9.3.0\transforms\fb412613baaa861d822dba4ecd5f5013\workspace\transformed\camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+62-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\8.9\transforms\e74ba97fa8caa9840fab4e7da5d860e9\transformed\camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
 63                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-63-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\9.3.0\transforms\fb412613baaa861d822dba4ecd5f5013\workspace\transformed\camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+63-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\8.9\transforms\e74ba97fa8caa9840fab4e7da5d860e9\transformed\camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
 64                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-64-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\9.3.0\transforms\fb412613baaa861d822dba4ecd5f5013\workspace\transformed\camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+64-->[androidx.camera:camera-camera2:1.3.4] C:\Users\PC\.gradle\caches\8.9\transforms\e74ba97fa8caa9840fab4e7da5d860e9\transformed\camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
 65        </service>
 66
 67        <activity
-67-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\PC\.gradle\caches\9.3.0\transforms\9537a1f094232dc0e0e883c992e2383b\workspace\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+67-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\PC\.gradle\caches\8.9\transforms\9b233e1d228e42c8be85c495d7fa358d\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
 68            android:name="androidx.compose.ui.tooling.PreviewActivity"
-68-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\PC\.gradle\caches\9.3.0\transforms\9537a1f094232dc0e0e883c992e2383b\workspace\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+68-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\PC\.gradle\caches\8.9\transforms\9b233e1d228e42c8be85c495d7fa358d\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
 69            android:exported="true" />
-69-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\PC\.gradle\caches\9.3.0\transforms\9537a1f094232dc0e0e883c992e2383b\workspace\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+69-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\PC\.gradle\caches\8.9\transforms\9b233e1d228e42c8be85c495d7fa358d\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
 70        <activity
-70-->[androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\PC\.gradle\caches\9.3.0\transforms\024992b44982d96fa6073541979ba135\workspace\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:23:9-25:39
+70-->[androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\PC\.gradle\caches\8.9\transforms\f953d87c87858b082a42212aaf6b2441\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:23:9-25:39
 71            android:name="androidx.activity.ComponentActivity"
-71-->[androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\PC\.gradle\caches\9.3.0\transforms\024992b44982d96fa6073541979ba135\workspace\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:24:13-63
+71-->[androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\PC\.gradle\caches\8.9\transforms\f953d87c87858b082a42212aaf6b2441\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:24:13-63
 72            android:exported="true" />
-72-->[androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\PC\.gradle\caches\9.3.0\transforms\024992b44982d96fa6073541979ba135\workspace\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:25:13-36
+72-->[androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\PC\.gradle\caches\8.9\transforms\f953d87c87858b082a42212aaf6b2441\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:25:13-36
 73
 74        <provider
-74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\9.3.0\transforms\f339f94893a3ffbf6c1640ac7b72bd2f\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\8.9\transforms\42090124fd49982334a80dcb09863450\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 75            android:name="androidx.startup.InitializationProvider"
-75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\9.3.0\transforms\f339f94893a3ffbf6c1640ac7b72bd2f\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\8.9\transforms\42090124fd49982334a80dcb09863450\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 76            android:authorities="com.photoorganizer.androidx-startup"
-76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\9.3.0\transforms\f339f94893a3ffbf6c1640ac7b72bd2f\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\8.9\transforms\42090124fd49982334a80dcb09863450\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 77            android:exported="false" >
-77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\9.3.0\transforms\f339f94893a3ffbf6c1640ac7b72bd2f\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\8.9\transforms\42090124fd49982334a80dcb09863450\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 78            <meta-data
-78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\9.3.0\transforms\f339f94893a3ffbf6c1640ac7b72bd2f\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\8.9\transforms\42090124fd49982334a80dcb09863450\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\9.3.0\transforms\f339f94893a3ffbf6c1640ac7b72bd2f\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\8.9\transforms\42090124fd49982334a80dcb09863450\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 80                android:value="androidx.startup" />
-80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\9.3.0\transforms\f339f94893a3ffbf6c1640ac7b72bd2f\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PC\.gradle\caches\8.9\transforms\42090124fd49982334a80dcb09863450\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 81            <meta-data
-81-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\PC\.gradle\caches\9.3.0\transforms\bc95e07b3dc91e3a92c22b3f864716cb\workspace\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+81-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\PC\.gradle\caches\8.9\transforms\49ede031b3cd409cfc589192c2e0bb3c\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
 82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-82-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\PC\.gradle\caches\9.3.0\transforms\bc95e07b3dc91e3a92c22b3f864716cb\workspace\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+82-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\PC\.gradle\caches\8.9\transforms\49ede031b3cd409cfc589192c2e0bb3c\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
 83                android:value="androidx.startup" />
-83-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\PC\.gradle\caches\9.3.0\transforms\bc95e07b3dc91e3a92c22b3f864716cb\workspace\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+83-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\PC\.gradle\caches\8.9\transforms\49ede031b3cd409cfc589192c2e0bb3c\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
 84            <meta-data
-84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 85                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
 86                android:value="androidx.startup" />
-86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
 87        </provider>
 88
 89        <service
-89-->[androidx.room:room-runtime:2.6.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\57b25bd2aca861f641a54898b7c02802\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+89-->[androidx.room:room-runtime:2.6.1] C:\Users\PC\.gradle\caches\8.9\transforms\3a6e2c6edd2c3d7d4e908aecd0da8d4f\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
 90            android:name="androidx.room.MultiInstanceInvalidationService"
-90-->[androidx.room:room-runtime:2.6.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\57b25bd2aca861f641a54898b7c02802\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+90-->[androidx.room:room-runtime:2.6.1] C:\Users\PC\.gradle\caches\8.9\transforms\3a6e2c6edd2c3d7d4e908aecd0da8d4f\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
 91            android:directBootAware="true"
-91-->[androidx.room:room-runtime:2.6.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\57b25bd2aca861f641a54898b7c02802\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+91-->[androidx.room:room-runtime:2.6.1] C:\Users\PC\.gradle\caches\8.9\transforms\3a6e2c6edd2c3d7d4e908aecd0da8d4f\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
 92            android:exported="false" />
-92-->[androidx.room:room-runtime:2.6.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\57b25bd2aca861f641a54898b7c02802\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+92-->[androidx.room:room-runtime:2.6.1] C:\Users\PC\.gradle\caches\8.9\transforms\3a6e2c6edd2c3d7d4e908aecd0da8d4f\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
 93
 94        <receiver
-94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
 95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
 96            android:directBootAware="false"
-96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
 97            android:enabled="true"
-97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
 98            android:exported="true"
-98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
 99            android:permission="android.permission.DUMP" >
-99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
 100            <intent-filter>
-100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
 101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
 102            </intent-filter>
 103            <intent-filter>
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
 104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
 105            </intent-filter>
 106            <intent-filter>
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
 107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
 108            </intent-filter>
 109            <intent-filter>
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
 110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\9.3.0\transforms\be113fe915246429747417ad2cbc461d\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\PC\.gradle\caches\8.9\transforms\9d19c33845795c830068504d230f1ee7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
 111            </intent-filter>
 112        </receiver>
 113    </application>

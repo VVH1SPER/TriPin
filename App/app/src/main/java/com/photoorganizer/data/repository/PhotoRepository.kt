@@ -96,6 +96,12 @@ class PhotoRepository private constructor(
         val sourceFile = File(sourcePath)
         if (!sourceFile.exists()) return null
 
+        val validFolderId = if (folderId <= 0L) {
+            ensureSystemFolder().id
+        } else {
+            folderId
+        }
+
         val targetDir = File(context.filesDir, "photos").apply { mkdirs() }
         val targetFile = File(targetDir, "${UUID.randomUUID()}.jpg")
         sourceFile.copyTo(targetFile, overwrite = false)
@@ -103,7 +109,7 @@ class PhotoRepository private constructor(
         val photo = PhotoEntity(
             id = UUID.randomUUID().toString(),
             fileName = targetFile.name,
-            folderId = folderId,
+            folderId = validFolderId,
             createdAt = createdAt,
             savedAt = System.currentTimeMillis(),
             sizeBytes = targetFile.length(),
