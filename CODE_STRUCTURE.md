@@ -1,13 +1,14 @@
 # TriPin — štruktúra kódu
 
-Dokument opisuje zdrojový kód Android aplikácie TriPin. Build výstupy, IDE
-cache a lokálne nastavenia (`build/`, `.gradle/`, `.idea/`, `.kotlin/`,
-`local.properties`) nie sú súčasťou zdrojovej štruktúry.
+Tento dokument opisuje aktuálnu štruktúru zdrojového kódu Android aplikácie
+TriPin a účel jej hlavných súborov. Build výstupy, IDE cache a lokálne
+nastavenia (`build/`, `.gradle/`, `.idea/`, `.kotlin/`, `local.properties`)
+nie sú súčasťou zdrojovej štruktúry.
 
 ## Koreň projektu
 
 ```text
-Android/
+TriPin/
 ├── App/                                  # Android Studio/Gradle projekt
 │   ├── app/                              # Android aplikácia (modul :app)
 │   ├── gradle/                           # Gradle wrapper konfigurácia
@@ -25,7 +26,10 @@ Android/
 ├── logo.png                              # Originálny zdroj loga
 ├── CODE_STRUCTURE.md                     # Tento dokument
 ├── README.md                             # Stručný prehľad projektu
-├── project.md                            # Produktový prehľad
+├── DESIGN.md                             # Návrh a pravidlá dizajnu
+├── SPEC.md                               # Funkčná špecifikácia
+├── Product_Backlog.md                    # Produktový backlog
+├── project.md                            # Produktový prehľad a MVP
 └── project_prompt.md                     # Pôvodné zadanie projektu
 ```
 
@@ -56,7 +60,7 @@ app/
     │       ├── screens/
     │       │   ├── home/HomeScreen.kt    # Domov, priečinky a galéria
     │       │   ├── camera/CameraScreen.kt # Fotografovanie cez CameraX
-    │       │   ├── photo/PhotoDetailScreen.kt # Detail a akcie fotografie
+    │       │   ├── photo/PhotoDetailScreen.kt # Detail, tagy a akcie fotografie
     │       │   └── tags/TagsScreen.kt    # Zoznam a správa tagov
     │       ├── theme/
     │       │   ├── Theme.kt              # Compose Material theme
@@ -66,14 +70,14 @@ app/
     └── res/
         ├── drawable/
         │   ├── ic_launcher_background.xml # Pôvodné pozadie adaptívnej ikony
-        │   └── ic_launcher_foreground.xml # Pôvodné vektorové popredie ikony
+        │   └── ic_launcher_foreground.xml # Pôvodný vektor popredia ikony
         ├── drawable-nodpi/
-        │   └── tripin_logo.png            # Logo na obrazovke a ikona aplikácie
+        │   └── tripin_logo.png            # Logo používané v aplikácii a ikone
         ├── mipmap-anydpi-v26/
         │   ├── ic_launcher.xml             # Pôvodná adaptívna ikona
         │   └── ic_launcher_round.xml       # Pôvodná okrúhla adaptívna ikona
         ├── values/
-        │   ├── strings.xml                 # Názov aplikácie „TriPin“
+        │   ├── strings.xml                 # Používateľsky viditeľný názov „TriPin“
         │   └── themes.xml                  # Android window/theme nastavenia
         └── xml/
             └── file_paths.xml              # Zdieľanie súborov cez FileProvider
@@ -89,11 +93,11 @@ app/
   súborov do interného úložiska aplikácie.
 - **Perzistencia:** `PhotoOrganizerDatabase` poskytuje Room databázu; entity
   a DAO definujú tabuľky a operácie pre priečinky, fotografie, tagy a ich väzby.
-- **Branding:** originálne logo je v `Android/logo.png`; Android resource kópia
-  je `App/app/src/main/res/drawable-nodpi/tripin_logo.png`. Zobrazovaný názov
-  je definovaný v `strings.xml`.
+- **Branding:** zdroj loga je v `TriPin/logo.png`; Android resource kópia je
+  `App/app/src/main/res/drawable-nodpi/tripin_logo.png`. Zobrazovaný názov
+  aplikácie je v `strings.xml`.
 - **Gradle:** `App/settings.gradle.kts` určuje názov projektu a moduly;
-  `App/build.gradle.kts` nastavuje verzie pluginov;
+  `App/build.gradle.kts` nastavuje verzie Gradle pluginov;
   `App/app/build.gradle.kts` nastavuje Android aplikáciu a závislosti.
 
 ## Pravidlo aktualizácie
