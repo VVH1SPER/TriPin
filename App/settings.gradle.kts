@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PhotoOrganizerApp"
+rootProject.name = "TriPin"
 include(":app")

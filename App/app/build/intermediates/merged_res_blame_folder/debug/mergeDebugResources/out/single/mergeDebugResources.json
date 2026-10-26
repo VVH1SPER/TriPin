@@ -12,6 +12,10 @@
         "source": "com.photoorganizer.app-main-79:/drawable/ic_launcher_foreground.xml"
     },
     {
+        "merged": "com.photoorganizer.app-debug-77:/drawable-nodpi_tripin_logo.png.flat",
+        "source": "com.photoorganizer.app-main-79:/drawable-nodpi/tripin_logo.png"
+    },
+    {
         "merged": "com.photoorganizer.app-debug-77:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.photoorganizer.app-main-79:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
